@@ -1,0 +1,103 @@
+.SWimg {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    position: relative; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url("img/Star-wars-logo-new-tall.webp");
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    position: absolute;
+    top: 10%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; 
+    max-width: 600px; 
+    text-align: center; 
+    color: black; 
+}
+
+#searchButton {
+    border: none;
+    color: black;
+    padding: 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    font-size: 16px;
+
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    width: 80%; 
+    max-width: 600px; 
+    cursor: pointer; 
+    position: relative; 
+    left: 50%;
+}
+
+main {
+    padding: 20px;
+    position: relative; 
+    text-align: center; 
+}
+
+#responseContainer {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; 
+    max-width: 600px; 
+    text-align: center; 
+    color: black; 
+}
+
+main {
+    padding: 20px;
+    position: relative; 
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-size: 16px;
+}
+
+#searchResponse {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    white-space: pre-line; 
+}
